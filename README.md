@@ -60,3 +60,10 @@ You can stop the container with the following command.
 ```
 $ docker stop <container>
 ```
+
+### Start
+
+You can start the container again with the following command.
+```
+$ docker start <container>
+```
