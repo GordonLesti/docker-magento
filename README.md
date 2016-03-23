@@ -1,6 +1,6 @@
 # docker-magento1
 
-This is my prevered development environment for open source Magento extensions. Not the
+This is my preferred development environment for open source Magento extensions. Not the
 recommended way, but all in one [Docker](https://www.docker.com/) container. This image is build on
 [Debian Jessie](https://www.debian.org/) and contains the following software or packages.
 
