@@ -36,7 +36,7 @@ You can run the container with the following command. Please replace `<module_di
 `<port>`, `<container>` with something meaningful like `~/Projects/Lesti_Fpc`, `/Lesti_Fpc`, `8080` and `fpc` for
 example.
 ```
-$ docker run -d -p -v <module_dir_host>:<module_dir_container> <port>:80 --name <container> <image>
+$ docker run -d -v <module_dir_host>:<module_dir_container> -p <port>:80 --name <container> <image>
 ```
 Please visit the Magento frontend under `http://127.0.0.1:<port>` and backend under `http://127.0.0.1:<port>/admin`. The
 credentials are `admin` and `password123`.
