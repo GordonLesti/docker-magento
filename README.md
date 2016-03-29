@@ -1,4 +1,4 @@
-# docker-magento1
+# docker-magento
 
 This is my preferred development environment for open source Magento extensions. Not the
 recommended way, but all in one [Docker](https://www.docker.com/) container. This image is build on
